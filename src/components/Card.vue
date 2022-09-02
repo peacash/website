@@ -8,7 +8,7 @@
 		}
 		50% {
 			opacity: 0;
-            transform: translate(0, 5rem);
+            -webkit-transform: translate(0, 5rem);
 		}
 		100% {
 			opacity: 1;

@@ -29,7 +29,7 @@
 	}
 	@keyframes fade {
 		0% {
-			transform: translate(0rem, -100%);
+			-webkit-transform: translate(0rem, -100%);
 		}
 	}
 </style>

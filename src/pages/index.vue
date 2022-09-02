@@ -14,7 +14,7 @@
 		}
 		25% {
 			opacity: 0;
-			transform: translate(0, 10rem);
+			-webkit-transform: translate(0, 10rem);
 		}
 		75% {
 			opacity: 1;
