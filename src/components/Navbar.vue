@@ -18,11 +18,19 @@
 		background-color: #000000aa;
 	}
 	.custom-header {
-		background-color: #00000006;
+		background-color: #000000cc;
 		transition: 100ms;
 	}
 	.custom-header:hover {
-		background-color: #00000066;
+		background-color: #000000dd;
+	}
+	header > div {
+		animation: fade 500ms;
+	}
+	@keyframes fade {
+		0% {
+			transform: translate(0rem, -100%);
+		}
 	}
 </style>
 <template>
@@ -76,13 +84,13 @@
 						{
 							text: "Home",
 							to: "/"
-						},
-						{
-							text: "Documentation",
-							to: "/docs"
 						}
 					],
 					href: [
+						{
+							text: "Github",
+							href: "https://github.com/pea-project/pea"
+						}
 					]
 				}
 			}

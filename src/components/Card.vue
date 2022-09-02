@@ -1,15 +1,31 @@
+<style scoped>
+    div {
+		animation: fade 2s;
+	}
+	@keyframes fade {
+		0% {
+			opacity: 0;
+		}
+		50% {
+			opacity: 0;
+            transform: translate(0, 5rem);
+		}
+		100% {
+			opacity: 1;
+		}
+	}
+</style>
 <template>
-    <div class="
+    <div style="background-color: #ffffffee;" class="
         flex
         flex-col
-        bg-white
         rounded
         px-12
         pb-4
         shadow-lg
     ">
         <h3>{{ name }}</h3>
-        <p>{{ description }}</p>
+        <p class="text-black">{{ description }}</p>
     </div>
 </template>
 <script>

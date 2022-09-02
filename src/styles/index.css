@@ -21,13 +21,13 @@
 		width: 10px;
 	}
 	.custom-scroll::-webkit-scrollbar-thumb {
-		background: #17857966;
+		background: #bfaaee66;
 	}
 	.custom-scroll::-webkit-scrollbar-thumb:hover {
-		background: #178579cc;
+		background: #bfaaee99;
 	}
 	.custom-scroll::-webkit-scrollbar-thumb:active {
-		background: #178579;
+		background: #bfaaeecc;
 	}
 	.custom-scroll::-webkit-scrollbar-track {
 		background: #000;
