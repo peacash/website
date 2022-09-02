@@ -26,8 +26,8 @@
 	}
 </style>
 <template>
-	<div class="select-none sticky top-0 z-20">
-		<header class="absolute w-full custom-header">
+	<div class="select-none z-20">
+		<header class="w-full custom-header">
 			<div class="max-w-7xl mx-auto px-4 flex justify-between lg:px-8">
 				<nav class="flex py-2 space-x-4 lg:space-x-8" aria-label="Global navigation">
 					<router-link
@@ -73,6 +73,14 @@
 				open: false,
 				links: {
 					to: [
+						{
+							text: "Home",
+							to: "/"
+						},
+						{
+							text: "Documentation",
+							to: "/docs"
+						}
 					],
 					href: [
 					]

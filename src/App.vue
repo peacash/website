@@ -6,7 +6,7 @@
 	" class="
 		custom-scroll
 	">
-		<!-- <Navbar /> -->
+		<Navbar />
 		<router-view />
 	</div>
 </template>
