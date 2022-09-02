@@ -8,6 +8,9 @@
 		font-size: 4rem;
 		animation: fade 1s;
 	}
+	img {
+		animation: logo 1s;
+	}
 	@keyframes fade {
 		0% {
 			opacity: 0;
@@ -23,6 +26,11 @@
 			opacity: 1;
 		}
 	}
+	@keyframes logo {
+		0% {
+			-webkit-transform: translate(10rem, 0);
+		}
+	}
 </style>
 <template>
 	<div class="m-2 sm:m-6">
@@ -34,11 +42,17 @@
 			justify-center
 			prose md:prose-lg
 			md:max-w-7xl
+			relative
+			my-20 md:my-40
 		">
-			<h1 class="flex justify-center">
-				<div class="text-6xl md:text-7xl my-20 md:my-40">
-					<span>Pea</span><span style="color: #9f9; text-shadow: 2px 2px #696;">Cash</span>
-				</div>
+			<h1 class="
+				rounded
+				flex
+				justify-center
+				shadow-lg
+			">
+				<Background2 class="absolute h-full w-full rounded" />
+				<img class="h-24 md:h-40 z-10" src="/peacash3.svg" alt="">
 			</h1>
 		</div>
 		<div class="
@@ -57,6 +71,7 @@
 			<div class="col-span-full my-20 md:my-40"></div>
 		</div>
 	</div>
+	<Bg />
 </template>
 <script>
 export default {
