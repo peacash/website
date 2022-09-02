@@ -6,7 +6,7 @@
 	h1 {
 		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		font-size: 4rem;
-		animation: fade 2s;
+		animation: fade 1s;
 	}
 	@keyframes fade {
 		0% {
@@ -22,9 +22,6 @@
 		100% {
 			opacity: 1;
 		}
-	}
-	@media only screen and (max-width : 768px) {
-		@keyframes fade {}
 	}
 </style>
 <template>

@@ -32,9 +32,6 @@
 			-webkit-transform: translate(0rem, -100%);
 		}
 	}
-	@media only screen and (max-width : 768px) {
-		@keyframes fade {}
-	}
 </style>
 <template>
 	<div class="select-none z-20">
