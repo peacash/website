@@ -43,7 +43,8 @@
 			prose md:prose-lg
 			md:max-w-7xl
 			relative
-			sm:my-20 xl:my-40
+			my-6
+			xl:my-12
 		">
 			<h1 class="
 				rounded
@@ -52,7 +53,7 @@
 				shadow-lg
 			">
 				<Background2 class="absolute h-full w-full rounded" />
-				<img class="h-20 sm:h-28 md:h-40 z-10" src="/peacash3.svg" alt="">
+				<img class="h-28 md:h-40 z-10 w-full px-6" src="/peacash3.svg" alt="">
 			</h1>
 		</div>
 		<div class="
