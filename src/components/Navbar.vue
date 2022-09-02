@@ -82,7 +82,7 @@
 					href: [
 						{
 							text: "Github",
-							href: "https://github.com/pea-project/pea"
+							href: "https://github.com/pea-project"
 						}
 					]
 				}
