@@ -14,15 +14,20 @@
 			opacity: 1;
 		}
 	}
+    @media only screen and (max-width : 768px) {
+		@keyframes fade {}
+	}
 </style>
 <template>
-    <div style="background-color: #ffffffee;" class="
+    <div class="
         flex
         flex-col
         rounded
-        px-12
+        px-8
+        sm:px-12
         pb-4
         shadow-lg
+        bg-white
     ">
         <h3>{{ name }}</h3>
         <p class="text-black">{{ description }}</p>

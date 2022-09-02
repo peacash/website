@@ -23,6 +23,9 @@
 			opacity: 1;
 		}
 	}
+	@media only screen and (max-width : 768px) {
+		@keyframes fade {}
+	}
 </style>
 <template>
 	<Background />
@@ -34,8 +37,8 @@
 			justify-center
 			prose md:prose-lg
 			md:max-w-7xl
-			p-6 mx-auto
-			grid md:grid-cols-2 gap-6
+			p-2 sm:p-6 mx-auto
+			grid md:grid-cols-2 gap-2 sm:gap-6
 		">
 			<!-- <div class="mx-auto col-span-full text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div> -->
 			<h1 class="mx-auto col-span-full">
