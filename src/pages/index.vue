@@ -37,7 +37,7 @@
 		">
 			<h1 class="flex justify-center">
 				<div class="text-6xl md:text-7xl my-20 md:my-40">
-					<span>Pea</span><span style="color: #0a0;">Cash</span>
+					<span>Pea</span><span style="color: #9f9; text-shadow: 2px 2px #696;">Cash</span>
 				</div>
 			</h1>
 		</div>
