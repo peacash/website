@@ -52,7 +52,7 @@
 				shadow-lg
 			">
 				<Background2 class="absolute h-full w-full rounded" />
-				<img class="h-24 md:h-40 z-10" src="/peacash3.svg" alt="">
+				<img class="h-20 sm:h-28 md:h-40 z-10" src="/peacash3.svg" alt="">
 			</h1>
 		</div>
 		<div class="
