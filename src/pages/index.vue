@@ -43,7 +43,7 @@
 			prose md:prose-lg
 			md:max-w-7xl
 			relative
-			sm:my-20 md:my-40
+			sm:my-20 xl:my-40
 		">
 			<h1 class="
 				rounded
