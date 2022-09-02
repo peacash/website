@@ -25,31 +25,35 @@
 	}
 </style>
 <template>
-	<Background />
-	<div style="background-color: #000000cc;">
+	<div class="m-2 sm:m-6">
 		<div class="
+			mx-auto
 			w-full
 			flex
 			flex-col
 			justify-center
 			prose md:prose-lg
 			md:max-w-7xl
-			p-2 sm:p-6 mx-auto
-			grid md:grid-cols-2 gap-2 sm:gap-6
 		">
-			<!-- <div class="mx-auto col-span-full text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div> -->
-			<h1 class="mx-auto col-span-full">
+			<h1 class="flex justify-center">
 				<div class="text-6xl md:text-7xl my-20 md:my-40">
-					<span class="text-white">Pea</span><span style="color: #9f9;">Cash</span>
+					<span>Pea</span><span style="color: #0a0;">Cash</span>
 				</div>
 			</h1>
-			<Card name="Pea" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-			<Card name="Pea" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-			<div class="col-span-full my-20 md:my-40"></div>
-			<Card name="Pea" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-			<Card name="Pea" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
-			<div class="col-span-full my-20 md:my-40"></div>
-			<Card name="Pea" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." />
+		</div>
+		<div class="
+			mx-auto
+			w-full
+			flex
+			flex-col
+			justify-center
+			prose md:prose-lg
+			md:max-w-7xl
+			grid md:grid-cols-2 gap-2 sm:gap-6
+		">
+			<Card name="High energy efficiency" description="Proof-of-Stake (PoS) has tiny energy consumption compared to conventional blockchains." />
+			<Card name="152 bytes per Transaction" description="Reducing the transaction size allows for more transactions to fit inside a block." />
+			<Card name="Rust" description="The original source code is written in Rust." />
 			<div class="col-span-full my-20 md:my-40"></div>
 		</div>
 	</div>

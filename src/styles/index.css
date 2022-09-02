@@ -3,7 +3,6 @@
 @tailwind utilities;
 @layer base {
 	body {
-		@apply bg-black;
 		overscroll-behavior-y: none;
 		@apply min-h-screen min-w-full fixed;
 	}
@@ -13,6 +12,9 @@
 	}
 }
 @layer components {
+	body {
+		background-color: #fefffe;
+	}
 	.custom-scroll {
 		scrollbar-width: thin;
 		scrollbar-color: theme('colors.gray.100') #ffffff;
@@ -31,5 +33,11 @@
 	}
 	.custom-scroll::-webkit-scrollbar-track {
 		background: #000;
+	}
+	.grid-layout {
+		grid-template-rows: auto 1fr;
+	}
+	.grid-layout-container {
+		grid-template-rows: 1fr auto;
 	}
 }

@@ -1,30 +1,19 @@
 <style scoped>
-	#search::-webkit-search-cancel-button {
-		display: none
-	}
 	.custom-button {
-		color: #fff;
+		color: #000;
 		transition: 75ms;
+		font-weight: 500;
 	}
 	.custom-button:hover {
-		color: #ffffff99;
-	}
-	.custom-button-mobile {
-		transition: 75ms;
-		color: #fff;
-		background-color: #00000099;
-	}
-	.custom-button-mobile:hover {
-		background-color: #000000aa;
+		color: #000000cc;
 	}
 	.custom-header {
-		background-color: #000000cc;
-		transition: 100ms;
+		background-color: #00000006;
 	}
 	.custom-header:hover {
-		background-color: #000000dd;
+		background-color: #00000024;
 	}
-	header > div {
+	header {
 		animation: fade 500ms;
 	}
 	@keyframes fade {
@@ -48,7 +37,7 @@
 							px-3
 							inline-flex
 							items-center
-							focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white
+							focus:outline-none focus:ring-1 focus:ring-inset focus:ring-black
 						"
 					>
 						{{ link.text }}
@@ -63,7 +52,7 @@
 							px-3
 							inline-flex
 							items-center
-							focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white
+							focus:outline-none focus:ring-1 focus:ring-inset focus:ring-black
 						"
 						rel="noopener"
 					>
@@ -84,6 +73,10 @@
 						{
 							text: "Home",
 							to: "/"
+						},
+						{
+							text: "About",
+							to: "/about"
 						}
 					],
 					href: [
