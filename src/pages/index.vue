@@ -4,8 +4,6 @@
 		/* scroll-snap-align: start; */
 	}
 	h1 {
-		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-		font-size: 4rem;
 		animation: fade 1s;
 	}
 	img {
@@ -57,6 +55,7 @@
 				<div class="absolute z-10 w-full h-full"></div>
 			</h1>
 		</div>
+		<div class="col-span-full py-10 hidden md:block"></div>
 		<div class="
 			mx-auto
 			w-full
@@ -73,6 +72,7 @@
 			<Card name="152 bytes per Transaction">
 				<p class="text-black">Reducing the transaction size allows for more transactions to fit inside a block.</p>
 			</Card>
+			<div class="col-span-full py-10 hidden md:block"></div>
 			<Card name="Rust">
 				<p class="text-black">The original source code is written in <a href="https://www.rust-lang.org">Rust</a>.</p>
 			</Card>

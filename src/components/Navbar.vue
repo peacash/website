@@ -73,6 +73,10 @@
 						{
 							text: "Home",
 							to: "/"
+						},
+						{
+							text: "Guide",
+							to: "guide"
 						}
 					],
 					href: [
