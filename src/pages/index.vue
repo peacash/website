@@ -67,9 +67,18 @@
 			md:max-w-7xl
 			grid md:grid-cols-2 gap-2 sm:gap-6
 		">
-			<Card name="High energy efficiency" description="Proof-of-Stake (PoS) has tiny energy consumption compared to conventional blockchains." />
-			<Card name="152 bytes per Transaction" description="Reducing the transaction size allows for more transactions to fit inside a block." />
-			<Card name="Rust" description="The original source code is written in Rust." />
+			<Card name="High energy efficiency">
+				<p class="text-black">Proof-of-Stake (PoS) has tiny energy consumption compared to conventional blockchains.</p>
+			</Card>
+			<Card name="152 bytes per Transaction">
+				<p class="text-black">Reducing the transaction size allows for more transactions to fit inside a block.</p>
+			</Card>
+			<Card name="Rust">
+				<p class="text-black">The original source code is written in <a href="https://www.rust-lang.org">Rust</a>.</p>
+			</Card>
+			<Card name="Technical">
+				<p class="text-black">You can <a href="https://github.com/pea-project/pea-paper">read the paper here</a>.</p>
+			</Card>
 			<div class="col-span-full my-20 md:my-40"></div>
 		</div>
 	</div>

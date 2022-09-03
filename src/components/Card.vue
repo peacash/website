@@ -27,15 +27,13 @@
         bg-white
     ">
         <h3>{{ name }}</h3>
-        <p class="text-black">{{ description }}</p>
+        <slot></slot>
     </div>
 </template>
 <script>
 export default {
     props: {
-        name: String,
-        description: String,
-        image: String
+        name: String
     }
 }
 </script>

@@ -5,13 +5,13 @@
 		font-weight: 500;
 	}
 	.custom-button:hover {
-		color: #000000cc;
+		color: #000000ee;
 	}
 	.custom-header {
-		background-color: #00000006;
+		background-color: #efe;
 	}
 	.custom-header:hover {
-		background-color: #00000024;
+		background-color: #ded;
 	}
 	header {
 		animation: fade 500ms;
@@ -73,10 +73,6 @@
 						{
 							text: "Home",
 							to: "/"
-						},
-						{
-							text: "About",
-							to: "/about"
 						}
 					],
 					href: [
