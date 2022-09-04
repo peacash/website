@@ -70,7 +70,7 @@
 	">
 		<Description class="col-span-full">
 			<h2 class="mx-auto uppercase" style="font-weight: 300;">what is peacash?</h2>
-			<p class="md:mx-12 lg:mx-24">
+			<p class="md:mx-12 lg:mx-24 pb-80">
 				Peacash is a "green" peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world.
 				Peacash is highly energy efficient.
 				Proof-of-Stake (PoS) which is used by Peacash, has tiny energy consumption compared to conventional blockchains.
