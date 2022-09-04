@@ -8,7 +8,7 @@
 		}
 		50% {
 			opacity: 0;
-            -webkit-transform: translate(0, 5rem);
+            -webkit-transform: translate(0, 40rem);
 		}
 		100% {
 			opacity: 1;
@@ -17,21 +17,15 @@
 </style>
 <template>
     <div class="
+        shadow-lg
         flex
         flex-col
-        rounded
         px-8
         sm:px-12
-        pb-4
+        py-4
+        bg-white
+        xl:rounded
     ">
-        <h3>{{ name }}</h3>
         <slot></slot>
     </div>
 </template>
-<script>
-export default {
-    props: {
-        name: String
-    }
-}
-</script>

@@ -55,34 +55,35 @@
 				<div class="absolute z-10 w-full h-full"></div>
 			</h1>
 		</div>
-		<div class="col-span-full py-10 hidden md:block"></div>
-		<div class="
-			mx-auto
-			w-full
-			flex
-			flex-col
-			justify-center
-			prose md:prose-lg
-			md:max-w-7xl
-			grid md:grid-cols-2 gap-2 sm:gap-6
-		">
-			<Card name="High energy efficiency">
-				<p class="text-black">Proof-of-Stake (PoS) has tiny energy consumption compared to conventional blockchains.</p>
-			</Card>
-			<Card name="152 bytes per Transaction">
-				<p class="text-black">Reducing the transaction size allows for more transactions to fit inside a block.</p>
-			</Card>
-			<div class="col-span-full py-10 hidden md:block"></div>
-			<Card name="Rust">
-				<p class="text-black">The original source code is written in <a href="https://www.rust-lang.org">Rust</a>.</p>
-			</Card>
-			<Card name="Technical">
-				<p class="text-black">You can <a href="https://github.com/pea-project/pea-paper">read the paper here</a>.</p>
-			</Card>
-			<div class="col-span-full my-20 md:my-40"></div>
-		</div>
+		<!-- <div class="col-span-full py-10 hidden md:block"></div> -->
 	</div>
-	<Bg />
+	<div class="
+		mx-auto
+		w-full
+		h-full
+		flex
+		flex-col
+		justify-center
+		prose md:prose-lg
+		md:max-w-7xl
+		grid md:grid-cols-2 gap-2 sm:gap-6
+	">
+		<Description class="col-span-full">
+			<h2 class="mx-auto uppercase" style="font-weight: 300;">what is peacash?</h2>
+			<p class="md:mx-12 lg:mx-24">
+				Peacash is a "green" peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world.
+				Peacash is highly energy efficient.
+				Proof-of-Stake (PoS) which is used by Peacash, has tiny energy consumption compared to conventional blockchains.
+				<!-- Peacash is an open source, global payment network that is fully decentralized without any central authorities. -->
+				The entire network is secured by mathematics.
+				Individuals are empowered to control their own finances.
+				Peacash features fast transaction confirmation times (only a few seconds) and improved storage efficiency.
+				Transaction sizes are small, only 152 bytes in size, which allows for more transactions to fit inside a block.
+				Peacash focuses on simplicity and performance.
+				The original source code is written in Rust "A language empowering everyone to build reliable and efficient software".
+			</p>
+		</Description>
+	</div>
 </template>
 <script>
 export default {

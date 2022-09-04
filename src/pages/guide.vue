@@ -5,6 +5,8 @@
 	}
 	h1 {
 		animation: fade 1s;
+		font-size: 4rem;
+		font-weight: 700;
 	}
 	img {
 		animation: logo 1s;
@@ -31,21 +33,20 @@
 	}
 </style>
 <template>
-	<div class="m-2 sm:m-6">
-		<div class="
-			mx-auto
-			w-full
-			flex
-			flex-col
-			justify-center
-			prose md:prose-lg
-			md:max-w-7xl
-			grid md:grid-cols-2 gap-2 sm:gap-6
-		">
-			<div class="col-span-full pt-10 md:pt-20 flex justify-center">
-				<h1>Pea Guide</h1>
-			</div>
-			<div class="col-span-full py-10 hidden md:block"></div>
+	<div class="
+		mx-auto
+		w-full
+		h-full
+		flex
+		flex-col
+		justify-center
+		prose md:prose-lg
+		md:max-w-7xl
+		grid md:grid-cols-2 gap-2 sm:gap-6
+		mt-6 xl:mt-12
+	">
+		<Description class="col-span-full">
+			<h2 class="mx-auto uppercase" style="font-weight: 300;">guide</h2>
 			<Card name="Wallet">
 				<p class="text-black">
 					How to setup a pea-core wallet.
@@ -60,7 +61,6 @@
 					<router-link to="/guide/node">Read more</router-link>
 				</p>
 			</Card>
-			<div class="col-span-full py-10 hidden md:block"></div>
 			<Card name="Report a bug">
 				<p class="text-black">
 					How to submit a bug report.
@@ -76,9 +76,8 @@
 				</p>
 			</Card>
 			<div class="col-span-full my-20 md:my-40"></div>
-		</div>
+		</Description>
 	</div>
-	<Bg />
 </template>
 <script>
 export default {
