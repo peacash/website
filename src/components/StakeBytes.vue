@@ -7,7 +7,7 @@
     <div></div>
     <div class="mx-auto my-8">
         [
-            <span class="px-2 py-1 rounded text-black" style="background-color: #f99;">public_key_input</span>,
+            <span class="px-2 py-1 rounded text-black" style="background-color: #f99;">public_key</span>,
             <span class="px-2 py-1 rounded text-black" style="background-color: #9f9;">amount</span>,
             <span class="px-2 py-1 rounded text-black" style="background-color: #99f;">deposit</span>,
             <span class="px-2 py-1 rounded text-black" style="background-color: #ff9;">fee</span>,
@@ -16,7 +16,7 @@
         ]
     </div>
     <div class="flex flex-wrap justify-center">
-        <Byte v-for="byte in public_key_input" :key="byte" :byte=byte
+        <Byte v-for="byte in public_key" :key="byte" :byte=byte
         style="background-color: #e66;" />
         <Byte v-for="byte in amount" :key="byte" :byte=byte
         style="background-color: #6e6;" />
@@ -34,7 +34,7 @@
 export default {
     data() {
         return {
-            public_key_input: [],
+            public_key: [],
             amount: [],
             deposit: [],
             fee: [],
@@ -47,14 +47,14 @@ export default {
             return Math.floor(Math.random()*256)
         },
         setBytes() {
-            this.public_key_input = []
+            this.public_key = []
             this.amount = []
             this.deposit = []
             this.fee = []
             this.timestamp = []
             this.signature = []
             for (let i = 0; i < 32; i++) {
-                this.public_key_input.push(this.randomByte())
+                this.public_key.push(this.randomByte())
             }
             for (let i = 0; i < 8; i++) {
                 this.amount.push(this.randomByte())
