@@ -70,7 +70,7 @@
 	">
 		<Description class="col-span-full">
 			<h2 class="mx-auto uppercase" style="font-weight: 300;">what is peacash?</h2>
-			<p class="md:mx-12 lg:mx-24 pb-80">
+			<p class="md:mx-12 lg:mx-24">
 				Peacash is a "green" peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world.
 				Peacash is highly energy efficient.
 				Proof-of-Stake (PoS) which is used by Peacash, has tiny energy consumption compared to conventional blockchains.
@@ -82,6 +82,20 @@
 				Peacash focuses on simplicity and performance.
 				The original source code is written in Rust "A language empowering everyone to build reliable and efficient software".
 			</p>
+			<div class="my-20"></div>
+			<h2 class="mx-auto uppercase" style="font-weight: 300;">anatomy of pea</h2>
+			<h3 class="mx-auto uppercase" style="font-weight: 300;">block</h3>
+			<h4 class="mx-auto uppercase" style="font-weight: 300;">144+ bytes</h4>
+			<BlockBytes />
+			<div class="my-20"></div>
+			<h3 class="mx-auto uppercase" style="font-weight: 300;">transaction</h3>
+			<h4 class="mx-auto uppercase" style="font-weight: 300;">152 bytes</h4>
+			<TransactionBytes />
+			<div class="my-20"></div>
+			<h3 class="mx-auto uppercase" style="font-weight: 300;">stake</h3>
+			<h4 class="mx-auto uppercase" style="font-weight: 300;">121 bytes</h4>
+			<StakeBytes />
+			<div class="my-40"></div>
 		</Description>
 	</div>
 </template>
