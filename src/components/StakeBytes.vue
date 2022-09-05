@@ -65,7 +65,7 @@ export default {
             for (let i = 0; i < 8; i++) {
                 this.fee.push(this.randomByte())
             }
-            for (let i = 0; i < 8; i++) {
+            for (let i = 0; i < 4; i++) {
                 this.timestamp.push(this.randomByte())
             }
             for (let i = 0; i < 64; i++) {

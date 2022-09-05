@@ -56,7 +56,7 @@ export default {
             for (let i = 0; i < 32; i++) {
                 this.previous_hash.push(this.randomByte())
             }
-            for (let i = 0; i < 8; i++) {
+            for (let i = 0; i < 4; i++) {
                 this.timestamp.push(this.randomByte())
             }
             for (let i = 0; i < 32; i++) {
@@ -65,10 +65,10 @@ export default {
             for (let i = 0; i < 64; i++) {
                 this.signature.push(this.randomByte())
             }
-            for (let i = 0; i < 4; i++) {
+            for (let i = 0; i < 8; i++) {
                 this.transactions.push(this.randomByte())
             }
-            for (let i = 0; i < 4; i++) {
+            for (let i = 0; i < 8; i++) {
                 this.stakes.push(this.randomByte())
             }
         }
