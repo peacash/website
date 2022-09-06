@@ -85,15 +85,15 @@
 			<div class="my-20"></div>
 			<h2 class="mx-auto uppercase" style="font-weight: 300;">anatomy of pea</h2>
 			<h3 class="mx-auto uppercase" style="font-weight: 300;">block</h3>
-			<h4 class="mx-auto uppercase" style="font-weight: 300;">144+ bytes</h4>
+			<h4 class="mx-auto uppercase" style="font-weight: 300;">148+ bytes</h4>
 			<BlockBytes />
 			<div class="my-20"></div>
 			<h3 class="mx-auto uppercase" style="font-weight: 300;">transaction</h3>
-			<h4 class="mx-auto uppercase" style="font-weight: 300;">152 bytes</h4>
+			<h4 class="mx-auto uppercase" style="font-weight: 300;">148 bytes</h4>
 			<TransactionBytes />
 			<div class="my-20"></div>
 			<h3 class="mx-auto uppercase" style="font-weight: 300;">stake</h3>
-			<h4 class="mx-auto uppercase" style="font-weight: 300;">121 bytes</h4>
+			<h4 class="mx-auto uppercase" style="font-weight: 300;">117 bytes</h4>
 			<StakeBytes />
 			<div class="my-40"></div>
 		</Description>

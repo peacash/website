@@ -1,16 +1,13 @@
 <template>
     <div class="
-        p-1
-        m-1
-        rounded
+        p-2
     ">
-        <div class="
+        <div style="height: .8rem;" class="
             flex
             rounded
             uppercase
-            px-2 md:px-3
-            md:py-1
-            bg-white
+            text-xs
+            text-black
         ">{{ toHexString(byte) }}</div>
     </div>
 </template>

@@ -5,29 +5,27 @@
 </style>
 <template>
     <div></div>
-    <div class="mx-auto my-8">
-        [
-            <span class="px-2 py-1 rounded text-black" style="background-color: #f99;">previous_hash</span>,
-            <span class="px-2 py-1 rounded text-black" style="background-color: #9f9;">timestamp</span>,
-            <span class="px-2 py-1 rounded text-black" style="background-color: #99f;">public_key</span>,
-            <span class="px-2 py-1 rounded text-black" style="background-color: #ff9;">signature</span>,
-            <span class="px-2 py-1 rounded text-black" style="background-color: #f9f;">transactions</span>,
-            <span class="px-2 py-1 rounded text-black" style="background-color: #9ff;">stakes</span>
-        ]
+    <div class="flex flex-wrap justify-center my-4 text-black text-sm gap-2">
+        <div class="px-2 py-1 rounded" style="background-color: #f99;">previous_hash</div>
+        <div class="px-2 py-1 rounded" style="background-color: #9f9;">timestamp</div>
+        <div class="px-2 py-1 rounded" style="background-color: #99f;">public_key</div>
+        <div class="px-2 py-1 rounded" style="background-color: #ff9;">signature</div>
+        <div class="px-2 py-1 rounded" style="background-color: #f9f;">transactions</div>
+        <div class="px-2 py-1 rounded" style="background-color: #9ff;">stakes</div>
     </div>
     <div class="flex flex-wrap justify-center">
         <Byte v-for="byte in previous_hash" :key="byte" :byte=byte
-        style="background-color: #e66;" />
+        style="background-color: #f99;" />
         <Byte v-for="byte in timestamp" :key="byte" :byte=byte
-        style="background-color: #6e6;" />
+        style="background-color: #9f9;" />
         <Byte v-for="byte in public_key" :key="byte" :byte=byte
-        style="background-color: #66e;" />
+        style="background-color: #99f;" />
         <Byte v-for="byte in signature" :key="byte" :byte=byte
-        style="background-color: #ee6;" />
+        style="background-color: #ff9;" />
         <Byte v-for="byte in transactions" :key="byte" :byte=byte
-        style="background-color: #e6e;" />
+        style="background-color: #f9f;" />
         <Byte v-for="byte in stakes" :key="byte" :byte=byte
-        style="background-color: #6ee;" />
+        style="background-color: #9ff;" />
     </div>
 </template>
 <script>
