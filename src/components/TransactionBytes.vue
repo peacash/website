@@ -79,10 +79,10 @@ export default {
             for (let i = 0; i < 32; i++) {
                 this.public_key_output.push(this.randomByte())
             }
-            for (let i = 0; i < 8; i++) {
+            for (let i = 0; i < 4; i++) {
                 this.amount.push(this.randomByte())
             }
-            for (let i = 0; i < 8; i++) {
+            for (let i = 0; i < 4; i++) {
                 this.fee.push(this.randomByte())
             }
             for (let i = 0; i < 4; i++) {

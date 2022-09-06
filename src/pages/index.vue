@@ -89,11 +89,11 @@
 			<BlockBytes />
 			<div class="my-20"></div>
 			<h3 class="mx-auto uppercase" style="font-weight: 300;">transaction</h3>
-			<h4 class="mx-auto uppercase" style="font-weight: 300;">148 bytes</h4>
+			<h4 class="mx-auto uppercase" style="font-weight: 300;">140 bytes</h4>
 			<TransactionBytes />
 			<div class="my-20"></div>
 			<h3 class="mx-auto uppercase" style="font-weight: 300;">stake</h3>
-			<h4 class="mx-auto uppercase" style="font-weight: 300;">117 bytes</h4>
+			<h4 class="mx-auto uppercase" style="font-weight: 300;">109 bytes</h4>
 			<StakeBytes />
 			<div class="my-40"></div>
 		</Description>
