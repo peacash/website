@@ -1,8 +1,4 @@
 <style scoped>
-	.full-height {
-		height: 100vh;
-		/* scroll-snap-align: start; */
-	}
 	h1 {
 		animation: fade 1s;
 	}

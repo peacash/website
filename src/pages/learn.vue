@@ -1,35 +1,3 @@
-<style scoped>
-	.full-height {
-		height: 100vh;
-		/* scroll-snap-align: start; */
-	}
-	h1 {
-		animation: fade 1s;
-	}
-	img {
-		animation: logo 1s;
-	}
-	@keyframes fade {
-		0% {
-			opacity: 0;
-		}
-		25% {
-			opacity: 0;
-			-webkit-transform: translate(0, 10rem);
-		}
-		75% {
-			opacity: 1;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
-	@keyframes logo {
-		0% {
-			-webkit-transform: translate(10rem, 0);
-		}
-	}
-</style>
 <template>
 	<div class="
 		mx-auto
