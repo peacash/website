@@ -82,19 +82,10 @@
 				Peacash focuses on simplicity and performance.
 				The original source code is written in Rust "A language empowering everyone to build reliable and efficient software".
 			</p>
-			<div class="my-20"></div>
-			<h2 class="mx-auto uppercase" style="font-weight: 300;">anatomy of pea</h2>
-			<h3 class="mx-auto uppercase" style="font-weight: 300;">block</h3>
-			<h4 class="mx-auto uppercase" style="font-weight: 300;">148+ bytes</h4>
-			<BlockBytes />
-			<div class="my-20"></div>
-			<h3 class="mx-auto uppercase" style="font-weight: 300;">transaction</h3>
-			<h4 class="mx-auto uppercase" style="font-weight: 300;">140 bytes</h4>
-			<TransactionBytes />
-			<div class="my-20"></div>
-			<h3 class="mx-auto uppercase" style="font-weight: 300;">stake</h3>
-			<h4 class="mx-auto uppercase" style="font-weight: 300;">109 bytes</h4>
-			<StakeBytes />
+			<div class="my-5"></div>
+			<router-link to="/learn" class="mx-auto" style="text-decoration: none;">
+				<Button text="Learn more" />
+			</router-link>
 			<div class="my-40"></div>
 		</Description>
 	</div>
