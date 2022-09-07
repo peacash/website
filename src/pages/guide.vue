@@ -1,37 +1,3 @@
-<style scoped>
-	.full-height {
-		height: 100vh;
-		/* scroll-snap-align: start; */
-	}
-	h1 {
-		animation: fade 1s;
-		font-size: 4rem;
-		font-weight: 700;
-	}
-	img {
-		animation: logo 1s;
-	}
-	@keyframes fade {
-		0% {
-			opacity: 0;
-		}
-		25% {
-			opacity: 0;
-			-webkit-transform: translate(0, 10rem);
-		}
-		75% {
-			opacity: 1;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
-	@keyframes logo {
-		0% {
-			-webkit-transform: translate(10rem, 0);
-		}
-	}
-</style>
 <template>
 	<div class="
 		mx-auto
@@ -43,10 +9,10 @@
 		prose md:prose-lg
 		md:max-w-7xl
 		grid md:grid-cols-2 gap-2 sm:gap-6
-		mt-6 xl:mt-12
 	">
 		<Description class="col-span-full">
-			<h2 class="mx-auto uppercase" style="font-weight: 300;">guide</h2>
+			<div class="my-10"></div>
+			<h1 class="mx-auto">Guide</h1>
 			<Card name="Wallet">
 				<p>
 					How to setup a pea-core wallet.

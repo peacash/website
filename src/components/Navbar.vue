@@ -76,11 +76,11 @@
 						},
 						{
 							text: "Learn",
-							to: "learn"
+							to: "/learn"
 						},
 						{
 							text: "Guide",
-							to: "guide"
+							to: "/guide"
 						}
 					],
 					href: [
