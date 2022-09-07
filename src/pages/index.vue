@@ -64,7 +64,7 @@
 		md:max-w-7xl
 		grid md:grid-cols-2 gap-2 sm:gap-6
 	">
-		<Description class="col-span-full">
+		<Description class="col-span-full text-justify md:text-left">
 			<h2 class="mx-auto uppercase" style="font-weight: 300;">what is peacash?</h2>
 			<p class="md:mx-12 lg:mx-24">
 				Peacash is a "green" peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world.
