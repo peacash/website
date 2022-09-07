@@ -75,8 +75,8 @@
 							to: "/"
 						},
 						{
-							text: "Guide",
-							to: "guide"
+							text: "Learn",
+							to: "learn"
 						}
 					],
 					href: [
