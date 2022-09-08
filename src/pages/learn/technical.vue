@@ -6,7 +6,7 @@
 		flex
 		flex-col
 		justify-center
-		prose md:prose-lg
+		prose sm:prose-lg
 		md:max-w-7xl
 		grid md:grid-cols-2 gap-2 sm:gap-6
 	">

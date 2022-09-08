@@ -6,42 +6,25 @@
 		flex
 		flex-col
 		justify-center
-		prose md:prose-lg
+		prose sm:prose-lg
 		md:max-w-7xl
 		grid md:grid-cols-2 gap-2 sm:gap-6
 	">
-		<Description class="col-span-full">
+		<Description class="col-span-full text-justify md:text-left">
 			<div class="my-10"></div>
-			<h1 class="mx-auto">Guide</h1>
-			<Card name="Wallet">
-				<p>
-					How to setup a pea-core wallet.
-					<br>
-					<router-link to="/guide/wallet">Read more</router-link>
-				</p>
-			</Card>
-			<Card name="How to setup a node?">
-				<p>
-					How to setup and host your very own node/validator.
-					<br>
-					<router-link to="/guide/node">Read more</router-link>
-				</p>
-			</Card>
-			<Card name="Report a bug">
-				<p>
-					How to submit a bug report.
-					<br>
-					<router-link to="/guide/bug-report">Read more</router-link>
-				</p>
-			</Card>
-			<Card name="Developers">
-				<p>
-					For developers of the project.
-					<br>
-					<router-link to="/guide/developers">Read more</router-link>
-				</p>
-			</Card>
-			<div class="col-span-full my-20 md:my-40"></div>
+			<h1 class="mx-auto" style="font-weight: 300;">Guide</h1>
+			<h2 class="mx-auto" style="font-weight: 300;">Wallet</h2>
+			<p class="md:mx-12 lg:mx-24">
+				How to setup a pea-core wallet. How to build source code.
+				<br>
+				<router-link to="/learn/guide/wallet">Read more</router-link>
+			</p>
+			<h2 class="mx-auto" style="font-weight: 300;">Validator</h2>
+			<p class="md:mx-12 lg:mx-24">
+				How to setup and host your own node/validator. How to build source code.
+				<br>
+				<router-link to="/guide/node">Read more</router-link>
+			</p>
 		</Description>
 	</div>
 </template>
