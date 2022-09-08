@@ -12,7 +12,7 @@
 	">
 		<Description class="col-span-full text-justify md:text-left">
 			<div class="my-10"></div>
-			<h1 class="mx-auto" style="font-weight: 300;">Learn about Pea</h1>
+			<h1 class="mx-auto" style="font-weight: 300;">Technical</h1>
 			<!-- <h2 class="mx-auto">Efficient storage</h2>
 			<p class="md:mx-12 lg:mx-24">
 				Pea focuses on performance and efficiency.
