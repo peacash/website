@@ -61,9 +61,8 @@
 </template>
 <script>
 export default {
-    data() {
-		return {
-		}
+    created() {
+		document.title = "Technical - Pea";
 	}
 }
 </script>

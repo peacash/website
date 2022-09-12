@@ -88,9 +88,8 @@
 </template>
 <script>
 export default {
-    data() {
-		return {
-		}
+	mounted() {
+		document.title = "Pea";
 	}
 }
 </script>

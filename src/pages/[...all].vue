@@ -22,3 +22,10 @@
         <router-link class="hover:underline" to="/">Back</router-link>
 	</div>
 </template>
+<script>
+export default {
+	mounted() {
+		document.title = "404 - Pea";
+	}
+}
+</script>
