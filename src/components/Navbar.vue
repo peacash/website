@@ -73,10 +73,6 @@
 						{
 							text: "Home",
 							to: "/"
-						},
-						{
-							text: "Learn",
-							to: "/learn"
 						}
 					],
 					href: [
