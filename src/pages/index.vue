@@ -40,7 +40,7 @@
 			<Git class="mx-auto" repo="website" />
 		</div>
 		<h2 class="mx-auto py-10 uppercase select-none" style="font-weight: 300;">crates.io</h2>
-		<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-10">
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-10">
 			<Crate class="mx-auto" version="0.4.0" crate="pea" />
 			<Crate class="mx-auto" version="0.1.0" crate="pea-core" />
 			<Crate class="mx-auto" version="0.1.0" crate="pea-address" />
