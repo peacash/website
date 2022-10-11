@@ -1,31 +1,3 @@
-<style scoped>
-	h1 {
-		animation: fade 1s;
-	}
-	img {
-		animation: logo 1s;
-	}
-	@keyframes fade {
-		0% {
-			opacity: 0;
-		}
-		25% {
-			opacity: 0;
-			-webkit-transform: translate(0, 10rem);
-		}
-		75% {
-			opacity: 1;
-		}
-		100% {
-			opacity: 1;
-		}
-	}
-	@keyframes logo {
-		0% {
-			-webkit-transform: translate(10rem, 0);
-		}
-	}
-</style>
 <template>
 	<div class="m-2 sm:m-6">
 		<div class="
@@ -51,39 +23,33 @@
 				<div class="absolute z-10 w-full h-full"></div>
 			</h1>
 		</div>
-		<!-- <div class="col-span-full py-10 hidden md:block"></div> -->
 	</div>
 	<div class="
 		mx-auto
 		w-full
-		h-full
 		flex
 		flex-col
 		justify-center
 		prose sm:prose-lg
 		md:max-w-7xl
-		grid md:grid-cols-2 gap-2 sm:gap-6
 	">
-		<Description class="col-span-full text-justify md:text-left">
-			<h2 class="mx-auto uppercase" style="font-weight: 300;">what is peacash?</h2>
-			<p class="md:mx-12 lg:mx-24">
-				Peacash is a "green" peer-to-peer Internet currency that enables instant, near-zero cost payments to anyone in the world.
-				Peacash is highly energy efficient.
-				Proof-of-Stake (PoS) which is used by Peacash, has tiny energy consumption compared to conventional blockchains.
-				<!-- Peacash is an open source, global payment network that is fully decentralized without any central authorities. -->
-				The entire network is secured by mathematics.
-				Individuals are empowered to control their own finances.
-				Peacash features fast transaction confirmation times (only a few seconds) and improved storage efficiency.
-				Transaction sizes are small, only 152 bytes in size, which allows for more transactions to fit inside a block.
-				Peacash focuses on simplicity and performance.
-				The original source code is written in Rust "A language empowering everyone to build reliable and efficient software".
-			</p>
-			<div class="my-5"></div>
-			<router-link to="/learn" class="mx-auto" style="text-decoration: none;">
-				<Button text="Learn more" />
-			</router-link>
-			<div class="my-40"></div>
-		</Description>
+		<h2 class="mx-auto py-10 uppercase select-none" style="font-weight: 300;">github</h2>
+		<div class="col-span-full grid md:grid-cols-2 lg:grid-cols-3 gap-y-10">
+			<Git class="mx-auto" repo="pea" />
+			<Git class="mx-auto" repo="bot" />
+			<Git class="mx-auto" repo="website" />
+		</div>
+		<h2 class="mx-auto py-10 uppercase select-none" style="font-weight: 300;">crates.io</h2>
+		<div class="col-span-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-10">
+			<Crate class="mx-auto" version="0.4.0" crate="pea" />
+			<Crate class="mx-auto" version="0.1.0" crate="pea-core" />
+			<Crate class="mx-auto" version="0.1.0" crate="pea-address" />
+			<Crate class="mx-auto" version="0.1.0" crate="pea-amount" />
+			<Crate class="mx-auto" version="0.1.0" crate="pea-tree" />
+			<Crate class="mx-auto" version="0.1.0" crate="pea-node" />
+			<Crate class="mx-auto" version="0.1.0" crate="pea-wallet" />
+		</div>
+		<div class="my-80"></div>
 	</div>
 </template>
 <script>
