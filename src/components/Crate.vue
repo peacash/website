@@ -11,14 +11,10 @@
         cursor: pointer;
         display: inline-flex;
         font-family: "JetBrains Mono",monospace;
-        height: 6rem;
         justify-content: center;
         line-height: 1;
         list-style: none;
         overflow: hidden;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
-        min-width: 12rem;
         position: relative;
         text-align: left;
         text-decoration: none;
@@ -47,8 +43,8 @@
 </style>
 <template>
     <a :href="'https://crates.io/crates/' + crate">
-        <button role="button">
-            <div class="flex flex-col">
+        <button class="w-32 md:w-40 px-5 md:px-10 h-16 md:h-20 xl:h-24" role="button">
+            <div class="flex flex-col text-xs sm:text-sm xl:text-lg">
                 <b class="mx-auto">{{ crate }}</b>
                 <div class="mx-auto opacity-60">v{{ version }}</div>
             </div>

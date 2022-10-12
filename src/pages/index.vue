@@ -9,8 +9,6 @@
 			prose sm:prose-lg
 			md:max-w-7xl
 			relative
-			my-6
-			xl:my-12
 		">
 			<h1 class="
 				rounded
@@ -34,21 +32,28 @@
 		prose sm:prose-lg
 		md:max-w-7xl
 	">
-		<h2 class="mx-auto py-10 uppercase select-none" style="font-weight: 300;">github</h2>
-		<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-y-10">
-			<Git class="mx-auto" repo="pea" />
-			<Git class="mx-auto" repo="bot" />
-			<Git class="mx-auto" repo="website" />
+		<div></div>
+		<h2 class="mx-auto lg:py-10 uppercase select-none" style="font-weight: 300;">github</h2>
+		<div class="flex justify-center gap-6 lg:gap-12">
+			<Git repo="pea" />
+			<Git repo="bot" />
+			<Git repo="website" />
 		</div>
-		<h2 class="mx-auto py-10 uppercase select-none" style="font-weight: 300;">crates.io</h2>
-		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-10">
-			<Crate class="mx-auto" version="0.4.0" crate="pea" />
-			<Crate class="mx-auto" version="0.1.0" crate="pea-core" />
-			<Crate class="mx-auto" version="0.1.0" crate="pea-address" />
-			<Crate class="mx-auto" version="0.1.0" crate="pea-amount" />
-			<Crate class="mx-auto" version="0.1.0" crate="pea-tree" />
-			<Crate class="mx-auto" version="0.1.0" crate="pea-node" />
-			<Crate class="mx-auto" version="0.1.0" crate="pea-wallet" />
+		<h2 class="mx-auto lg:py-10 uppercase select-none" style="font-weight: 300;">crates.io</h2>
+		<div class="flex flex-col gap-4 lg:gap-8">
+			<div class="flex justify-center gap-6 lg:gap-12">
+				<Crate version="0.4.0" crate="pea" />
+				<Crate version="0.1.0" crate="pea-core" />
+				<Crate version="0.1.0" crate="pea-address" />
+			</div>
+			<div class="flex justify-center gap-6 lg:gap-12">
+				<Crate version="0.1.0" crate="pea-amount" />
+				<Crate version="0.1.0" crate="pea-tree" />
+				<Crate version="0.1.0" crate="pea-node" />
+			</div>
+			<div class="flex justify-center gap-6 lg:gap-12">
+				<Crate version="0.1.0" crate="pea-wallet" />
+			</div>
 		</div>
 		<div class="my-10"></div>
 		<Description class="text-justify md:text-left">
