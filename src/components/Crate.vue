@@ -25,7 +25,7 @@
         white-space: nowrap;
         will-change: box-shadow,transform;
         font-size: 1.125rem;
-        background-image: url("crates.png");
+        background-image: url("/crates.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: 4px 4px;
