@@ -32,15 +32,13 @@
 		prose sm:prose-lg
 		md:max-w-7xl
 	">
-		<div></div>
-		<h2 class="mx-auto lg:py-10 uppercase select-none" style="font-weight: 300;">github</h2>
-		<div class="flex justify-center gap-6 lg:gap-12">
-			<Git repo="pea" />
-			<Git repo="bot" />
-			<Git repo="website" />
-		</div>
-		<h2 class="mx-auto lg:py-10 uppercase select-none" style="font-weight: 300;">crates.io</h2>
+		<div class="py-6 lg:py-12"></div>
 		<div class="flex flex-col gap-4 lg:gap-8">
+			<div class="flex justify-center gap-6 lg:gap-12">
+				<Git repo="pea" />
+				<Git repo="bot" />
+				<Git repo="website" />
+			</div>
 			<div class="flex justify-center gap-6 lg:gap-12">
 				<Crate version="0.4.0" crate="pea" />
 				<Crate version="0.1.0" crate="pea-core" />
@@ -55,7 +53,7 @@
 				<Crate version="0.1.0" crate="pea-wallet" />
 			</div>
 		</div>
-		<div class="my-10"></div>
+		<div class="py-6 lg:py-12"></div>
 		<Description class="text-justify md:text-left">
 			<div class="my-10"></div>	
 			<h2 class="mx-auto" style="font-weight: 300;">Scientific notation</h2>
