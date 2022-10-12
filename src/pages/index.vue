@@ -17,8 +17,9 @@
 				flex
 				justify-center
 				shadow-lg
+				rounded bg-black
 			">
-				<Background2 class="absolute h-full w-full rounded" />
+				<Background2 class="absolute h-full w-full" />
 				<img class="user-select-none h-28 md:h-40 z-10 w-full px-6" src="/peacash.svg" alt="">
 				<div class="absolute z-10 w-full h-full"></div>
 			</h1>
