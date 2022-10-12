@@ -1,17 +1,7 @@
 <style scoped>
 	.custom-button {
-		color: #000;
-		transition: 75ms;
+		transition: color 500ms;
 		font-weight: 500;
-	}
-	.custom-button:hover {
-		color: #000000ee;
-	}
-	.custom-header {
-		background-color: #efe;
-	}
-	.custom-header:hover {
-		background-color: #ded;
 	}
 	header {
 		animation: fade 500ms;
@@ -23,8 +13,8 @@
 	}
 </style>
 <template>
-	<div class="select-none z-20">
-		<header class="w-full custom-header">
+	<div class="absolute sm:sticky select-none z-20">
+		<header class="w-full custom-header text-white sm:text-black">
 			<div class="max-w-7xl mx-auto px-4 flex justify-between lg:px-8">
 				<nav class="flex py-2 space-x-4 lg:space-x-8" aria-label="Global navigation">
 					<router-link
@@ -37,7 +27,8 @@
 							px-3
 							inline-flex
 							items-center
-							focus:outline-none focus:ring-1 focus:ring-inset focus:ring-black
+							focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white sm:focus:ring-black
+							hover:outline-none hover:ring-1 hover:ring-outset hover:ring-white sm:hover:ring-black
 						"
 					>
 						{{ link.text }}
@@ -52,7 +43,8 @@
 							px-3
 							inline-flex
 							items-center
-							focus:outline-none focus:ring-1 focus:ring-inset focus:ring-black
+							focus:outline-none focus:ring-1 focus:ring-inset focus:ring-white sm:focus:ring-black
+							hover:outline-none hover:ring-1 hover:ring-outset hover:ring-white sm:hover:ring-black
 						"
 						rel="noopener"
 					>

@@ -1,5 +1,5 @@
 <template>
-	<div class="m-2 sm:m-6">
+	<div class="sm:m-6">
 		<div class="
 			mx-auto
 			w-full
@@ -11,14 +11,14 @@
 			relative
 		">
 			<h1 class="
-				rounded
+				sm:rounded
 				flex
 				justify-center
 				shadow-lg
-				rounded bg-black
+				bg-black
 			">
 				<Background2 class="absolute h-full w-full" />
-				<img class="user-select-none h-28 md:h-40 z-10 w-full px-6" src="/peacash.svg" alt="">
+				<img class="user-select-none h-28 h-80 md:h-40 z-10 w-full px-6" src="/peacash.svg" alt="">
 				<div class="absolute z-10 w-full h-full"></div>
 			</h1>
 		</div>
