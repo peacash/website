@@ -41,6 +41,10 @@
 				<Git repo="website" />
 			</div>
 			<div class="flex justify-center gap-6 lg:gap-12">
+				<Git repo="wallet" />
+				<Git repo="explorer" />
+			</div>
+			<div class="flex justify-center gap-6 lg:gap-12">
 				<Crate version="0.4.0" crate="pea" />
 				<Crate version="0.1.0" crate="pea-core" />
 				<Crate version="0.1.0" crate="pea-address" />
