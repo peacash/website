@@ -16,6 +16,7 @@
 				justify-center
 				shadow-lg
 				bg-black
+				select-none
 			">
 				<Background2 class="absolute h-full w-full" />
 				<img class="user-select-none h-28 h-80 md:h-40 z-10 w-full px-6" src="/peacash.svg" alt="">
