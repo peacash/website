@@ -55,6 +55,7 @@
 			</div>
 			<div class="flex justify-center gap-6 lg:gap-12">
 				<Crate version="0.1.0" crate="pea-wallet" />
+				<Crate version="0.1.0" crate="pea-db" />
 			</div>
 		</div>
 		<div class="py-6 lg:py-12"></div>
