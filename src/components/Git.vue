@@ -45,12 +45,12 @@
     }
 </style>
 <template>
-    <a class="relative" :href="'https://github.com/pea-project/' + repo">
+    <a class="relative" :href="'https://github.com/peacash/' + repo">
         <button class="w-24 sm:w-28 md:w-32 lg:w-40 px-5 md:px-10 h-16 md:h-20 xl:h-24" role="button">
             <img class="absolute w-3 lg:w-5 left-2 top-2 opacity-80" src="/github.png" alt="">
             <div class="flex flex-col text-xs sm:text-sm xl:text-lg">
                 <b class="mx-auto">{{ repo }}</b>
-                <div class="mx-auto opacity-60">pea-project</div>
+                <div class="mx-auto opacity-60">peacash</div>
             </div>
         </button>
     </a>

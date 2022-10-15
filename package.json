@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pea-project/website.git"
+    "url": "git+https://github.com/peacash/website.git"
   },
   "bugs": {
-    "url": "https://github.com/pea-project/website/issues"
+    "url": "https://github.com/peacash/website/issues"
   },
-  "homepage": "https://github.com/pea-project/website#readme",
+  "homepage": "https://github.com/peacash/website#readme",
   "dependencies": {
     "@vueuse/core": "^5.2.0",
     "@vueuse/head": "^0.6.0",

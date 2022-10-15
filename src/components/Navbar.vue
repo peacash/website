@@ -70,7 +70,7 @@
 					href: [
 						{
 							text: "Github",
-							href: "https://github.com/pea-project"
+							href: "https://github.com/peacash"
 						}
 					]
 				}
