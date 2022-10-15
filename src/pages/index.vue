@@ -41,7 +41,6 @@
 				<Git repo="website" />
 			</div>
 			<div class="flex justify-center gap-6 lg:gap-12">
-				<Git repo="wallet" />
 				<Git repo="explorer" />
 			</div>
 			<div class="flex justify-center gap-6 lg:gap-12">
