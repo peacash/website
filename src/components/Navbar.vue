@@ -48,7 +48,7 @@
 						"
 						rel="noopener"
 					>
-						<span class="mr-2">{{ link.text }}</span><heroicons-outline-external-link class="h-5 w-5" />
+						{{ link.text }}
 					</a>
 				</nav>
 			</div>
@@ -62,12 +62,20 @@
 				open: false,
 				links: {
 					to: [
-						{
-							text: "Home",
-							to: "/"
-						}
+						// {
+							// text: "Home",
+							// to: "/"
+						// }
 					],
 					href: [
+						{
+							text: "Wallet",
+							href: "https://wallet.pea.cash"
+						},
+						{
+							text: "Explorer",
+							href: "https://explorer.pea.cash"
+						},
 						{
 							text: "Github",
 							href: "https://github.com/peacash"
