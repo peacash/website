@@ -1,3 +1,16 @@
+<style scoped>
+	.prose a {
+		text-decoration: none;
+		font-weight: bold;
+		color: #36395A;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	.prose h2 {
+		color: #36395A;
+	}
+</style>
 <template>
 	<div class="sm:m-6">
 		<div class="
@@ -33,8 +46,15 @@
 		prose sm:prose-lg
 		md:max-w-7xl
 	">
-		<div class="py-6 lg:py-12"></div>
+		<div class="py-12 lg:py-24 flex flex-col">
+			<h2 class="mx-auto pb-8">Install using <a href="https://doc.rust-lang.org/cargo/">Cargo</a></h2>
+			<div class="mx-auto flex flex-col sm:flex-row justify-center gap-6 md:gap-12 lg:gap-24">
+				<Codeblock text="cargo install pea-node" />
+				<Codeblock text="cargo install pea-wallet" />
+			</div>
+		</div>
 		<div class="flex flex-col gap-4 lg:gap-8">
+			<h2 class="mx-auto">Repositories</h2>
 			<div class="flex justify-center gap-6 lg:gap-12">
 				<Git repo="pea" />
 				<Git repo="bot" />
@@ -43,6 +63,7 @@
 			<div class="flex justify-center gap-6 lg:gap-12">
 				<Git repo="explorer" />
 			</div>
+			<h2 class="mx-auto">Crates</h2>
 			<div class="flex justify-center gap-6 lg:gap-12">
 				<Crate version="0.5.0" crate="pea" />
 				<Crate version="0.1.1" crate="pea-core" />
@@ -58,7 +79,7 @@
 				<Crate version="0.2.3" crate="pea-wallet" />
 			</div>
 		</div>
-		<div class="py-6 lg:py-12"></div>
+		<div class="py-12 lg:py-24"></div>
 		<Description class="text-justify md:text-left">
 			<div class="my-10"></div>	
 			<h2 class="mx-auto" style="font-weight: 300;">Scientific notation</h2>
