@@ -11,7 +11,6 @@
         display: inline-flex;
         font-family: "JetBrains Mono",monospace;
         justify-content: center;
-        line-height: 1;
         list-style: none;
         overflow: hidden;
         position: relative;
