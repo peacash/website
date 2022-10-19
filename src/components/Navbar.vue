@@ -62,10 +62,10 @@
 				open: false,
 				links: {
 					to: [
-						{
-							text: "Home",
-							to: "/"
-						}
+						// {
+							// text: "Home",
+							// to: "/"
+						// }
 					],
 					href: [
 						{
@@ -75,6 +75,10 @@
 						{
 							text: "Github",
 							href: "https://github.com/peacash"
+						},
+						{
+							text: "Discord",
+							href: "https://discord.pea.cash"
 						}
 					]
 				}
