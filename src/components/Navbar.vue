@@ -78,7 +78,7 @@
 						},
 						{
 							text: "Discord",
-							href: "https://discord.pea.cash"
+							href: "https://discord.com/invite/dEHY4PMVUX"
 						}
 					]
 				}
