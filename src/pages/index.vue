@@ -72,11 +72,12 @@
 			<div class="flex justify-center gap-6 lg:gap-12">
 				<Crate version="0.1.1" crate="pea-amount" />
 				<Crate version="0.1.1" crate="pea-tree" />
-				<Crate version="0.1.0" crate="pea-db" />
+				<Crate version="0.2.0" crate="pea-db" />
 			</div>
 			<div class="flex justify-center gap-6 lg:gap-12">
-				<Crate version="0.2.2" crate="pea-node" />
+				<Crate version="0.3.0" crate="pea-node" />
 				<Crate version="0.2.3" crate="pea-wallet" />
+				<Crate version="0.1.1" crate="pea-api" />
 			</div>
 		</div>
 		<div class="py-12"></div>
