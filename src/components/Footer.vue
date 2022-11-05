@@ -7,7 +7,7 @@
     }
 </style>
 <template>
-    <footer class="py-20 lg:py-40 bg-white">
+    <footer class="py-20 lg:py-40 pb-60 sm:pb-20 bg-white">
         <div class="flex justify-center">
             <div class="w-40 sm:w-80 py-2 px-3 flex">
                 <div class="logo text-2xl sm:text-4xl my-auto">Peacash</div>
