@@ -45,6 +45,7 @@
 		justify-center
 		prose sm:prose-lg
 		md:max-w-7xl
+		mb-10 lg:mb-20
 	">
 		<div class="py-12 flex flex-col">
 			<h2 class="mx-auto pb-8">Install using <a href="https://doc.rust-lang.org/cargo/">Cargo</a></h2>
