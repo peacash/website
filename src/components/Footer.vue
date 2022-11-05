@@ -10,15 +10,15 @@
     <footer class="py-20 lg:py-40 bg-white">
         <div class="flex justify-center">
             <div class="w-40 sm:w-80 py-2 px-3 flex">
-                <div class="logo text-4xl my-auto">Peacash</div>
-                <img class="w-12 ml-2" src="/logo.svg" alt="">
+                <div class="logo text-2xl sm:text-4xl my-auto">Peacash</div>
+                <img class="w-8 sm:w-12 ml-2" src="/logo.svg" alt="">
             </div>
             <div class="flex flex-col">
                 <router-link
                     v-for="link in links.to" :key="link"
                     :to=link.to
                     class="
-                        w-40
+                        w-20 sm:w-40
                         custom-button
                         rounded-md
                         py-2
@@ -35,7 +35,7 @@
                     v-for="link in links.href" :key="link"
                     :href=link.href
                     class="
-                        w-40
+                        w-20 sm:w-40
                         custom-button
                         rounded-md
                         py-2
