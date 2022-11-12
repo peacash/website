@@ -64,21 +64,31 @@
 			<div class="flex justify-center gap-6 lg:gap-12">
 				<Git repo="explorer" />
 			</div>
-			<h2 class="mx-auto">Crates</h2>
+			<h2 class="mx-auto">Binary Crates</h2>
 			<div class="flex justify-center gap-6 lg:gap-12">
-				<Crate version="0.5.0" crate="pea" />
-				<Crate version="0.1.1" crate="pea-core" />
-				<Crate version="0.1.1" crate="pea-address" />
+				<Crate version="0.6.0" crate="pea" />
+				<Crate version="0.3.0" crate="pea-wallet" />
+				<Crate version="0.2.0" crate="pea-pay" />
 			</div>
+			<h2 class="mx-auto">Library Crates</h2>
 			<div class="flex justify-center gap-6 lg:gap-12">
-				<Crate version="0.1.1" crate="pea-amount" />
-				<Crate version="0.1.1" crate="pea-tree" />
+				<Crate version="0.2.0" crate="pea-core" />
+				<Crate version="0.2.0" crate="pea-logger" />
 				<Crate version="0.2.0" crate="pea-db" />
 			</div>
 			<div class="flex justify-center gap-6 lg:gap-12">
-				<Crate version="0.3.0" crate="pea-node" />
-				<Crate version="0.2.3" crate="pea-wallet" />
-				<Crate version="0.1.1" crate="pea-api" />
+				<Crate version="0.2.0" crate="pea-address" />
+				<Crate version="0.2.0" crate="pea-amount" />
+				<Crate version="0.2.0" crate="pea-key" />
+			</div>
+			<div class="flex justify-center gap-6 lg:gap-12">
+				<Crate version="0.2.0" crate="pea-block" />
+				<Crate version="0.2.0" crate="pea-transaction" />
+				<Crate version="0.3.0" crate="pea-stake" />
+			</div>
+			<div class="flex justify-center gap-6 lg:gap-12">
+				<Crate version="0.1.0" crate="pea-pay-core" />
+				<Crate version="0.1.0" crate="pea-pay-db" />
 			</div>
 		</div>
 	</div>
