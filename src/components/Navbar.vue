@@ -74,7 +74,7 @@
 						},
 						{
 							text: "Discord",
-							href: "https://discord.com/invite/dEHY4PMVUX"
+							href: "https://discord.gg/EpjuhjGUXu"
 						}
 					]
 				}
