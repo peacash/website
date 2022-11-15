@@ -45,19 +45,12 @@
 		justify-center
 		prose sm:prose-lg
 		md:max-w-7xl
-		mb-20 lg:mb-40
+		my-12 lg:mb-40
 	">
-		<div class="py-12 flex flex-col">
-			<h2 class="mx-auto pb-8">Install using <a href="https://doc.rust-lang.org/cargo/">Cargo</a></h2>
-			<div class="mx-auto flex flex-col sm:flex-row justify-center gap-6 md:gap-12 lg:gap-24">
-				<Codeblock text="cargo install pea" />
-				<Codeblock text="cargo install pea-wallet" />
-			</div>
-		</div>
 		<div class="flex flex-col gap-4 lg:gap-8">
 			<h2 class="mx-auto">Repositories</h2>
 			<div class="flex justify-center gap-6 lg:gap-12">
-				<Git repo="pea" />
+				<Git repo="peacash" />
 				<Git repo="bot" />
 				<Git repo="website" />
 			</div>
