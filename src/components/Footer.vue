@@ -10,7 +10,7 @@
     <footer class="pt-20 pb-40 bg-white">
         <div class="flex justify-center">
             <div class="w-40 sm:w-80 py-2 px-3 flex">
-                <div class="logo text-2xl sm:text-4xl my-auto">Peacash</div>
+                <div class="logo text-2xl sm:text-4xl my-auto">PeaCash</div>
                 <img class="w-8 sm:w-12 ml-2" src="/logo.svg" alt="">
             </div>
             <div class="flex flex-col">
@@ -62,20 +62,12 @@
 							text: "Home",
 							to: "/"
 						},
-						{
-							text: "Blog",
-							to: "/"
-						},
-						{
-							text: "Guide",
-							to: "/"
-						},
-						{
-							text: "Paper",
-							to: "/"
-						}
 					],
 					href: [
+						{
+							text: "Paper",
+							href: "https://github.com/peacash/paper"
+						},
 						{
 							text: "Explorer",
 							href: "https://explorer.pea.cash"
@@ -86,7 +78,7 @@
 						},
 						{
 							text: "Discord",
-							href: "https://discord.com/invite/dEHY4PMVUX"
+							href: "https://discord.gg/EpjuhjGUXu"
 						}
 					]
 				}
