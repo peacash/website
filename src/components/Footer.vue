@@ -68,17 +68,13 @@
 							text: "Paper",
 							href: "https://github.com/peacash/paper"
 						},
-						{
-							text: "Explorer",
-							href: "https://explorer.pea.cash"
+                        {
+							text: "App",
+							href: "https://app.pea.cash"
 						},
 						{
 							text: "Github",
 							href: "https://github.com/peacash"
-						},
-						{
-							text: "Discord",
-							href: "https://discord.gg/EpjuhjGUXu"
 						}
 					]
 				}

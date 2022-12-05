@@ -69,12 +69,12 @@
 					],
 					href: [
 						{
-							text: "Github",
-							href: "https://github.com/peacash"
+							text: "App",
+							href: "https://app.pea.cash"
 						},
 						{
-							text: "Discord",
-							href: "https://discord.gg/EpjuhjGUXu"
+							text: "Github",
+							href: "https://github.com/peacash"
 						}
 					]
 				}
